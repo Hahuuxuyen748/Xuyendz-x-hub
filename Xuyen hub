@@ -1,0 +1,41 @@
+-- Danh sách tất cả các trái ác quỷ (Devil Fruits)
+local fruits = {
+    "Bomb Fruit", "Spike Fruit", "Chop Fruit", "Spring Fruit",
+    "Smoke Fruit", "Flame Fruit", "Ice Fruit", "Sand Fruit",
+    "Dark Fruit", "Light Fruit", "Magma Fruit", "Rubber Fruit",
+    "Barrier Fruit", "Quake Fruit", "Human: Buddha Fruit",
+    "String Fruit", "Bird: Phoenix Fruit", "Rumble Fruit",
+    "Paw Fruit", "Gravity Fruit", "Dough Fruit", "Control Fruit",
+    "Dragon Fruit", "Soul Fruit", "Venom Fruit", "Shadow Fruit",
+    "Ice-Venom Fruit"
+}
+
+-- Danh sách các kiếm (Swords)
+local swords = {
+    "Katana", "Cutlass", "Iron Mace", "Duel Katana",
+    "Pipe", "Triple Katana", "Pole (1st Form)", "Pole (2nd Form)",
+    "Rengoku", "Shisui", "Saber", "Tushita", "Wando", "Cursed Dual Katana"
+}
+
+-- Danh sách phụ kiện (Accessories)
+local accessories = {
+    "Pilot Helmet", "Black Cape", "Cool Shades", "Warrior Helmet",
+    "Ghoul Mask", "Swan Glasses", "Marine Cap", "Santa Hat", "Elf Hat"
+}
+
+-- Hiển thị tất cả các item
+print("=== Tất cả Item trong Blox Fruits ===")
+print("Trái Ác Quỷ:")
+for _, fruit in ipairs(fruits) do
+    print("- " .. fruit)
+end
+
+print("\nKiếm:")
+for _, sword in ipairs(swords) do
+    print("- " .. sword)
+end
+
+print("\nPhụ kiện:")
+for _, accessory in ipairs(accessories) do
+    print("- " .. accessory)
+end
